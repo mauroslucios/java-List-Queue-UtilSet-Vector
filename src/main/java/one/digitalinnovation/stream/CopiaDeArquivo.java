@@ -33,7 +33,7 @@ public class CopiaDeArquivo {
 
         adicionarInfoNoArquivo(fcopy.getName());
 
-        pw.printf("Informações adicionadas ao arquivo", fcopy.getName());
+        pw.printf("Informações adicionadas ao arquivo com '%d' bytes", fcopy.length());
         br.close();
         bw.close();
         pw.close();
